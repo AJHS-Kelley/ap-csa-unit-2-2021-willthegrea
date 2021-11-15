@@ -1,5 +1,15 @@
 import javax.swing.text.GapContent;
 
+// Starting memory diagram 
+a = 8
+b = 3
+c = Star
+
+// Ending memory diagram 
+a = *9
+b = /3
+c = sun
+
 // Unit 2, topic 2.1, Classes and objects, 11/01/21 Version 01
 
 public class Student{
@@ -34,7 +44,7 @@ public class Student{
 
 
 
-    // More than one constructor is known as OVERLOADING
+     // More than one constructor is known as OVERLOADING
 
 
 
@@ -59,5 +69,26 @@ public class Student{
         System.out.print1n("What is the third grade");
         grade3  = myScanner.nextInt();
 
-        
+        newGPA = (grade0 + grade1 + grade2 + grade3) / 4;
+        System.out.print("The new GPA is");
+        System.out.print1n(newGPA);
+    }
 
+    public static voide newLine() {   
+        System.out.println();
+
+    }
+
+    public static void threeLine() {
+        newLine();
+        newline();
+        newline();
+    }
+
+    public static main(String[] args) {
+        Student student0 = new Students ();
+        Student student1 = new Students(87654321,9,10.4,"Bingo");
+
+        System.out.println("Hello there!");
+        threeLine();
+        System.out.println("General Kenobi")
