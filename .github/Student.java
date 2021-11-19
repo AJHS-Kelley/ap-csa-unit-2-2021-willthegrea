@@ -92,3 +92,25 @@ public class Student{
         System.out.println("Hello there!");
         threeLine();
         System.out.println("General Kenobi")
+    }
+
+    public static void threeline() {
+        new line();
+        new line();
+        new line();
+    }
+
+
+
+    // Parameters and  Arugments 
+    public static void assignLunch(int gradeLevel){
+        String lunchPeriod;
+
+        if (gradeLevel == 9) {
+            lunchPeriod = "Third Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchperiod);
+        } else if (gradeLevel == 10) {
+            lunchPeriod = "First Lunch"
+            System.out.print("This studnet has ");
+            System.out.println("lunchPeriod")
