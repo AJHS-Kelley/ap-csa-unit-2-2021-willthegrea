@@ -115,4 +115,10 @@ public class Student{
             System.out.print("This studnet has ");
             System.out.println("lunchPeriod");
         } else if (gradeLevel == 11)  {
-            lunchPeriod = "Second Lunch"
+            lunchPeriod = "Second Lunch";
+            System.out.print("This student has");
+            System.out.println(lunchPeriod);
+        } else {
+            lunchPeriod = "Outside lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
