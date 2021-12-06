@@ -122,3 +122,14 @@ public class Student{
             lunchPeriod = "Outside lunch";
             System.out.print("This student has ");
             System.out.println(lunchPeriod);
+        
+
+        
+        
+        }
+    
+        public stastic double getGPA() {
+            int grade0, grade1, grade2
+        
+
+        grade
